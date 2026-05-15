@@ -22,7 +22,7 @@ The project generates formatted citations from user input and runs entirely in t
 
 
 ## Project Structure
-```txt
+```plaintext
 project/
 │
 ├── script.js
@@ -35,13 +35,12 @@ project/
 ## Clone the repository:
 git clone https://github.com/sufyanism/Zeba-Academy-Citation--Generator.git
 
-Move into the project folder:
+## Move into the project folder:
 cd Zeba-Academy-Citation--Generator
 Go to go
 
 ## Demo
 https://github.com/user-attachments/assets/c1297d3f-141b-4ec6-aa60-7c0db84b5bbb
-
 
 ## About Me 
 ✨ I’m **Sufyan bin Uzayr**, an open-source developer passionate about building and sharing meaningful projects.
