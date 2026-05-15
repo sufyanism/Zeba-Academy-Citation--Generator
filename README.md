@@ -33,11 +33,10 @@ project/
 # Installation
 
 ## Clone the repository:
-- git clone https://github.com/sufyanism/Zeba-Academy-Citation--Generator.git
+`git clone https://github.com/sufyanism/Zeba-Academy-Citation--Generator.git`
 
 ## Move into the project folder:
-- cd Zeba-Academy-Citation--Generator
--Go to go
+`cd Zeba-Academy-Citation--Generator`
 
 ## Demo
 https://github.com/user-attachments/assets/c1297d3f-141b-4ec6-aa60-7c0db84b5bbb
