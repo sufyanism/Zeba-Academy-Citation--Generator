@@ -1,13 +1,3 @@
-
-
-https://github.com/user-attachments/assets/57b7ce5c-4e94-4837-be56-41333aec6e06
-
-
-
-https://github.com/user-attachments/assets/c1297d3f-141b-4ec6-aa60-7c0db84b5bbb
-
-
-
 # Zeba Academy Citation Generator
 A lightweight browser-based academic citation generator built using frontend technologies only.  
 The project generates formatted citations from user input and runs entirely in the browser without any backend or database.
@@ -50,8 +40,7 @@ cd Zeba-Academy-Citation--Generator
 Go to go
 
 ## Demo
-
-
+https://github.com/user-attachments/assets/c1297d3f-141b-4ec6-aa60-7c0db84b5bbb
 
 
 ## About Me 
