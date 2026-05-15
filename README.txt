@@ -59,5 +59,24 @@ npm install
 ## Run development server:
 npm run dev
 
-##Build for Production
+## Build for Production
 npm run build
+
+## Demo
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
