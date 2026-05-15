@@ -14,7 +14,6 @@ The project generates formatted citations from user input and runs entirely in t
 - Easy deployment on cPanel or GitHub Pages
 
 ## Tech Stack
-
 - HTML
 - CSS
 - TypeScript / JavaScript
@@ -23,7 +22,6 @@ The project generates formatted citations from user input and runs entirely in t
 
 
 ## Project Structure
-
 ```txt
 project/
 │
