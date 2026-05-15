@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Zeba Academy Citation Generator</title>
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Libre+Baskerville:wght@400;700&display=swap" rel="stylesheet" />
+<link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+<header class="site-header">
+  <div class="header-container">
+    <div class="logo-wrapper">
+      <img src="Logo_.png" alt="Zeba Academy Logo" class="logo" />
+    </div>
+    <div class="header-text">
+      <h1>Zeba Academy Citation Generator</h1>
+      <p>Generate APA, MLA, and Chicago citations instantly</p>
+    </div>
+  </div>
+</header>
+
+<div class="container">
+  <div class="grid">
+    <div class="field"><label>Author *</label><input type="text" id="author" placeholder="e.g., Smith, J." /></div>
+    <div class="field"><label>Title *</label><input type="text" id="title" placeholder="Book or Article Title" /></div>
+    <div class="field"><label>Publisher</label><input type="text" id="publisher" placeholder="Publisher Name" /></div>
+    <div class="field"><label>Year *</label><input type="number" id="year" min="1000" max="9999" placeholder="e.g., 2020" /></div>
+    <div class="field"><label>URL / Link</label><input type="url" id="url" placeholder="https://example.com" /></div>
+    <div class="field"><label>DOI</label><input type="text" id="doi" placeholder="DOI number" /></div>
+    <div class="field"><label>Access Date</label><input type="date" id="accessDate" /></div>
+    <div class="field"><label>ISBN</label><input type="text" id="isbn" placeholder="ISBN number" /></div>
+    <div class="field"><label>Edition / Volume</label><input type="text" id="edition" placeholder="e.g., 2nd" /></div>
+    <div class="field"><label>City of Publication</label><input type="text" id="city" placeholder="City" /></div>
+    <div class="field"><label>Issue Number</label><input type="text" id="issue" placeholder="Issue #" /></div>
+    <div class="field"><label>Page Range</label><input type="text" id="pages" placeholder="e.g., 10-20" /></div>
+    <div class="field"><label>Database Name</label><input type="text" id="database" placeholder="Database Name" /></div>
+    <div class="field"><label>Contributors / Translators</label><input type="text" id="contributors" placeholder="Names" /></div>
+    <div class="field"><label>Series Title</label><input type="text" id="series" placeholder="Series Name" /></div>
+    <div class="field"><label>Format / Medium</label><input type="text" id="format" placeholder="e.g., eBook, Print" /></div>
+  </div>
+
+  <div class="citation-box">
+    <div class="citation-header">
+      <h2>APA</h2>
+      <button class="copy-btn" data-copy="apa-output">Copy</button>
+    </div>
+    <div id="apa-output" class="citation-output"></div>
+  </div>
+
+  <div class="citation-box">
+    <div class="citation-header">
+      <h2>MLA</h2>
+      <button class="copy-btn" data-copy="mla-output">Copy</button>
+    </div>
+    <div id="mla-output" class="citation-output"></div>
+  </div>
+
+  <div class="citation-box">
+    <div class="citation-header">
+      <h2>Chicago</h2>
+      <button class="copy-btn" data-copy="chicago-output">Copy</button>
+    </div>
+    <div id="chicago-output" class="citation-output"></div>
+  </div>
+</div>
+
+<footer class="site-footer">
+  <div class="footer-container">
+    <p class="footer-text">
+     <a href="index.html" target="_blank">Zeba Academy</a>   
+  </div>
+</footer>
+
+<!-- jQuery CDN and your script -->
+<script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+<script src="script.js"></script>
+
+</body>
+</html>
