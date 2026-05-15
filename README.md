@@ -28,7 +28,7 @@ project/
 ├── script.js
 ├── index.html
 ├── Logo.png
-│
+```
 
 # Installation
 
